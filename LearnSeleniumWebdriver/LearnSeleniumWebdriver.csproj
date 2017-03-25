@@ -35,11 +35,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.CrossBrowser, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="Selenium.WebDriverBackedSelenium">
       <HintPath>RefrenceLibs\Selenium.WebDriverBackedSelenium.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
     <Reference Include="WebDriver">
       <HintPath>RefrenceLibs\WebDriver.dll</HintPath>
     </Reference>
@@ -64,6 +69,8 @@
     <Compile Include="GeneralSettings.cs" />
     <Compile Include="Mail_Google_Com\Function\LoginPageFunctions.cs" />
     <Compile Include="Mail_Google_Com\Maps\LoginPageMaps.cs" />
+    <Compile Include="Mail_Google_Com\TestCases\GmailLogin.cs" />
+    <Compile Include="Mail_Google_Com\TestCases\Gmail.cs" />
     <Compile Include="MainCall.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,7 +84,6 @@
   <ItemGroup>
     <Folder Include="Mail_Google_Com\OrderedTest\" />
     <Folder Include="Mail_Google_Com\SharedFunctions\" />
-    <Folder Include="Mail_Google_Com\TestCases\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -15,8 +15,8 @@ namespace LearnSeleniumWebdriver
         [TestInitialize]
         public void TestInitialize()
         {
-            if (MainCall.WebDriver == null)
-                MainCall.InitializeDriver(TestContext);
+            //if (MainCall.WebDriver == null)
+                //MainCall.InitializeDriver(TestContext);
         }
 
         [TestCleanup]
@@ -25,8 +25,8 @@ namespace LearnSeleniumWebdriver
             MainCall.DisposeDriver();
         }
 
-        public TestContext TestContext { get { return _testContext; } set { _testContext = value; } }
-        private TestContext _testContext;
+        //public TestContext TestContext { get { return _testContext; } set { _testContext = value; } }
+        //private TestContext _testContext;
 
     }
 

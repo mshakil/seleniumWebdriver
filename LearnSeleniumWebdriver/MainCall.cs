@@ -9,6 +9,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using System.Configuration;
 using System.Diagnostics;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Runtime.InteropServices;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
@@ -112,6 +114,27 @@ namespace LearnSeleniumWebdriver
 
                 }
             }
+        }
+
+        public static void TakeScreenShotByWebDriver(string testCaseName)
+        {
+            try
+            {
+                var logFolderPath = ConfigurationManager.AppSettings["LogFolderPath"];
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd-hhmm-ss");
+                var imgPath = Path.Combine(logFolderPath, "Snapshot-" + testCaseName + "-" + timestamp + ".png");
+
+
+                WebDriver.TakeScreenshot().SaveAsFile(imgPath, ImageFormat.Png);
+            }
+            catch (Exception edx)
+            {
+                Console.WriteLine("cannot take the screen shot with webDriver");
+                Console.WriteLine("Exception Message");
+                Console.WriteLine(edx.ToString());
+            }
+            
+
         }
     }
 }
