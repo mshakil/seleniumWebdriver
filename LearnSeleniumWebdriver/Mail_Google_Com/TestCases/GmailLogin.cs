@@ -14,8 +14,8 @@ namespace LearnSeleniumWebdriver.Mail_Google_Com.TestCases
         public void LoginToGmailAccout()
         {
             var url = "http://mail.google.com";
-            var email = "mshakil74@gmail.com";
-            var password = "M.SHAKIL26472";
+            var email = "****";
+            var password = "****";
 
             MainCall.LoginPage.NavigteToGmail(url);
             MainCall.LoginPage.EnterEmailAddress(email);
