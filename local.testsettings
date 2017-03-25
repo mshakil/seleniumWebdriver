@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestSettings name="local" id="381dd90b-d026-4259-8fe4-70480c636e55" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+
+<TestSettings name="local" id="381dd90b-d026-4259-8fe4-70480c636e55"
+              xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Description>These are default test settings for a local test run.</Description>
   <Deployment>
     <DeploymentItem filename="LearnSeleniumWebdriver\Other.config" />
