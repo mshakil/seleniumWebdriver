@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="d:\coderepository\seleniumwebdriver\learnseleniumwebdriver\mail_google_com\orderedtest\orderedtest1.orderedtest" id="ffb71382-8c24-4e26-9233-5fc476d8a2f2" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="b6ff699e-c3b8-432d-2b6a-1d1a9534c9c4" name="LoginToGmailAccout" storage="..\..\bin\debug\learnseleniumwebdriver.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b6ff699e-c3b8-432d-2b6a-1d1a9534c9c4" name="LoginToGmailAccout" storage="..\..\bin\debug\learnseleniumwebdriver.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b6ff699e-c3b8-432d-2b6a-1d1a9534c9c4" name="LoginToGmailAccout" storage="..\..\bin\debug\learnseleniumwebdriver.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b6ff699e-c3b8-432d-2b6a-1d1a9534c9c4" name="LoginToGmailAccout" storage="..\..\bin\debug\learnseleniumwebdriver.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

@@ -70,7 +70,6 @@ namespace LearnSeleniumWebdriver
 
                                 else
                                 {
-                                    //if (ConfigurationManager.AppSettings["LoadBalanceCloud"] != "true")
                                     {
                                         Process.Start(GeneralSettings.ChromeDriverPath);
                                         CustomRemoteDriver.NewSession = true;
@@ -133,7 +132,7 @@ namespace LearnSeleniumWebdriver
                 Console.WriteLine("Exception Message");
                 Console.WriteLine(edx.ToString());
             }
-            
+
 
         }
     }
